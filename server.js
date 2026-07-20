@@ -176,7 +176,9 @@ io.on('connection', (socket) => {
 });
 
 app.use(express.static(ROOT_DIR));
-
+app.get("/", (req, res) => {
+  res.send("Server is running");
+});
 server.listen(PORT, () => {
   console.log(`IPL Auction server running on http://localhost:${PORT}`);
 });
