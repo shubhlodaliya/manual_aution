@@ -176,9 +176,17 @@ io.on('connection', (socket) => {
 });
 
 app.use(express.static(ROOT_DIR));
-app.get("/", (req, res) => {
-  res.send("Server is running");
+app.get('/', (req, res) => {
+  res.sendFile(path.join(ROOT_DIR, 'index.html'));
+});
+
+app.get('/manual-setup', (req, res) => {
+  res.redirect(301, '/manual-setup.html');
+});
+
+app.get('/home', (req, res) => {
+  res.redirect(301, '/index.html');
 });
 server.listen(PORT, () => {
-  console.log(`IPL Auction server running on http://localhost:${PORT}`);
+  console.log(`Manual room server running on http://localhost:${PORT}`);
 });
