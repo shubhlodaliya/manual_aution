@@ -1,0 +1,20 @@
+{
+  "outputDirectory": ".",
+  "redirects": [
+    { "source": "/guide.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/howto.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/faq.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/learning-center.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/bidding-mistakes.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/budget-blueprint.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/host-checklist.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/role-balance-guide.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/about.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/contact.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/editorial-policy.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/privacy-policy.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/terms.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/pricing.html", "destination": "/manual-setup.html", "permanent": true },
+    { "source": "/profile.html", "destination": "/manual-setup.html", "permanent": true }
+  ]
+}
